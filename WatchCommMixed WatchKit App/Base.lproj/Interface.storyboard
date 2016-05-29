@@ -1,14 +1,33 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="6221" systemVersion="13E28" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="AgC-eL-Hgc">
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="AgC-eL-Hgc">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6213"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="3733"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="10032"/>
     </dependencies>
     <scenes>
         <!--Interface Controller-->
         <scene sceneID="aou-V4-d1y">
             <objects>
-                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModuleProvider="target"/>
+                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="WatchCommMixed_WatchKit_App" customModuleProvider="target">
+                    <items>
+                        <group width="1" alignment="left" layout="vertical" id="Rxs-o1-l3X">
+                            <items>
+                                <label alignment="left" text="Instant :" id="xgg-ew-C80"/>
+                                <label alignment="left" text="Label" id="Jui-mF-UrZ"/>
+                            </items>
+                        </group>
+                        <group width="1" alignment="left" layout="vertical" id="yCc-5D-duC">
+                            <items>
+                                <label alignment="left" text="Context: " id="emA-V3-NMy"/>
+                                <label alignment="left" text="Label" id="J2r-8y-44a"/>
+                            </items>
+                        </group>
+                    </items>
+                    <connections>
+                        <outlet property="contextLabel" destination="J2r-8y-44a" id="NdD-wX-JUx"/>
+                        <outlet property="instantLabel" destination="Jui-mF-UrZ" id="w5m-yf-gV4"/>
+                    </connections>
+                </controller>
             </objects>
         </scene>
     </scenes>

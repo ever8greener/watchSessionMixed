@@ -5,6 +5,50 @@
    <BuildAction
       parallelizeBuildables = "YES"
       buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "6D1FB7AC1CF9C42400C9D218"
+               BuildableName = "WatchCommMixed WatchKit App.app"
+               BlueprintName = "WatchCommMixed WatchKit App"
+               ReferencedContainer = "container:WatchCommMixed.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "6D1FB7BB1CF9C42400C9D218"
+               BuildableName = "WatchCommMixed WatchKit Extension.appex"
+               BlueprintName = "WatchCommMixed WatchKit Extension"
+               ReferencedContainer = "container:WatchCommMixed.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "6D1FB79A1CF9C42400C9D218"
+               BuildableName = "WatchCommMixed.app"
+               BlueprintName = "WatchCommMixed"
+               ReferencedContainer = "container:WatchCommMixed.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
    </BuildAction>
    <TestAction
       buildConfiguration = "Debug"
@@ -13,6 +57,15 @@
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "6D1FB7AC1CF9C42400C9D218"
+            BuildableName = "WatchCommMixed WatchKit App.app"
+            BlueprintName = "WatchCommMixed WatchKit App"
+            ReferencedContainer = "container:WatchCommMixed.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -26,6 +79,27 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
+      <RemoteRunnable
+         runnableDebuggingMode = "2"
+         BundleIdentifier = "com.apple.carousel"
+         RemotePath = "/WatchCommMixed WatchKit App">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "6D1FB7AC1CF9C42400C9D218"
+            BuildableName = "WatchCommMixed WatchKit App.app"
+            BlueprintName = "WatchCommMixed WatchKit App"
+            ReferencedContainer = "container:WatchCommMixed.xcodeproj">
+         </BuildableReference>
+      </RemoteRunnable>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "6D1FB7AC1CF9C42400C9D218"
+            BuildableName = "WatchCommMixed WatchKit App.app"
+            BlueprintName = "WatchCommMixed WatchKit App"
+            ReferencedContainer = "container:WatchCommMixed.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -35,6 +109,27 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
+      <RemoteRunnable
+         runnableDebuggingMode = "2"
+         BundleIdentifier = "com.apple.carousel"
+         RemotePath = "/WatchCommMixed WatchKit App">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "6D1FB7AC1CF9C42400C9D218"
+            BuildableName = "WatchCommMixed WatchKit App.app"
+            BlueprintName = "WatchCommMixed WatchKit App"
+            ReferencedContainer = "container:WatchCommMixed.xcodeproj">
+         </BuildableReference>
+      </RemoteRunnable>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "6D1FB7AC1CF9C42400C9D218"
+            BuildableName = "WatchCommMixed WatchKit App.app"
+            BlueprintName = "WatchCommMixed WatchKit App"
+            ReferencedContainer = "container:WatchCommMixed.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
